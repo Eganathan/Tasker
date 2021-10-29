@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+
+body{
+	background-color: black;
+	color:black;
+	padding:15px;
+}
+
+#input-Wrapper{
+
+background-color:#6F69AC;
+padding:20px;
+border-radius: 20px  20px 0px 0px;
+align-items: center;
+color: white;
+}
+
+input{
+font-size: 1.7em;
+padding:3px;
+color: forestgreen;
+width: 70%;
+font-weight: bold;
+border-radius: 5px;
+font-style: italic;
+}
+
+#addTaskBtn{
+	font-size: 2em;
+	border-radius: 6px;
+	width:20%;
+	color: forestgreen;
+	background-color: forstgreen;
+}
+
+#task-Wrapper{
+	background-color: #95DAC1;
+	display: inline-block;
+	min-width: 68%;
+	max-width: 68%;
+	min-height: 300px;
+	margin:0px;
+	padding:5px;
+}
+
+
+#doc-Wrapper{
+	background-color: #95DAC1;
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+	min-height: 300px;
+	margin:0px;
+	padding:5px;
+	float:right;
+	opacity: 0.9;
+	color:black;
+}
+
+ul{
+font-size: 1.2em;
+}
+#fotter-Wrapper{
+
+background-color: #110f1c;
+padding:20px;
+border-radius: 0px 0px 20px  20px;
+color:white;
+align-items: center;
+clear: both;
+text-align: right;
+}
+
+#pTaskLbl{
+	background-color: #6F69AC;
+	color:#88E0EF;
+	padding:10px;
+	border-radius: 5px 5px 0px 0px;
+	margin-right: 5px;
+}
+#id{
+	float: right;
+	display:block;
+
+
+}
+
+#logoleft{
+	float: left;
+	display: block;
+	text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+  #task-Wrapper{
+	background-color: #95DAC1;
+	min-width: 98%;
+	max-width: 100%;
+	min-height: 200px;
+}
+
+#doc-Wrapper{
+	min-width: 98%;
+	min-height: 100px;
+	margin-top:10px;
+}
+
+.center{
+	text-align: center;
+}
+
+}
+
+
+.li-elim{
+	text-transform: capitalize;
+	font-family: 'Zen Kurenaido', sans-serif;
+	letter-spacing: 2px;
+	color:black;
+	font-size:1.2em;
+	font-weight:bold;
+	overflow:auto;
+	background-color:#6F69AC;
+	margin-bottom: 2px;
+	padding-left:15px;
+	border-radius:5px;
+}
+
+.material-icons{
+	background-color: white;
+	border-radius: 50px;
+}
